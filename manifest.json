@@ -1,0 +1,16 @@
+{
+  "name": "Youtube Search",
+  "description": "A simple extension for searching on youtube",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Press to search on youtube"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
